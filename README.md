@@ -1,10 +1,13 @@
 # MPMC_SKILL-ASSESSMENT1
+
 ## AIM
+
 To write and execute an 8086 assembly language program to search for a given number in an array of N elements and display whether the number is FOUND or NOT FOUND.
+
 ---
 
 ## APPARATUS REQUIRED
-- 8086 Microprocessor Kit or Emulator, Assembler (TASM/MASM), 8086 Simulator Software (e.g., EMU8086), and a Computer System.
+Personal Computer with DOSBOX Software.
 
 ---
 
@@ -54,7 +57,7 @@ Otherwise, increment SI to point to the next element and decrement CL.
 ---
 
 ## PROGRAM
-```
+```asm
 DATA SEGMENT
     ARR DB 10, 20, 30, 40, 50     ; Array of 5 elements
     N   DB 5                      ; Number of elements
